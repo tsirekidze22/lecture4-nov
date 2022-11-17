@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 .container{
-	width: 90%;
+	width: 1270px;
 	margin: 0 auto;
 }
 
@@ -9,7 +9,7 @@ header{
 	height: 80px;
 	padding-top: 30px;
 	border: 1px solid lightgray;
-
+	margin-bottom: 30px;
 }
 
 nav, li{
@@ -28,6 +28,16 @@ nav{
 li{
 	font-size: 22px;
 	margin-right: 30px;
+}
+
+.article-img{
+	vertical-align: top;
+}
+
+.text1{
+	display: inline-block;
+	width:930px;
+	margin-left: 39px;
 }
 
 
@@ -64,5 +74,10 @@ li{
 }
 
 .card2{
-	margin-left: 29px;
+	margin-left: 25px;
+}
+
+/* Footer */
+footer{
+	margin-top: 30px;
 }
